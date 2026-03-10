@@ -30,3 +30,40 @@ if( a === 8 || b === 8){
 } else {
     console.log("Le condizioni non sono soddisfatte")
 }
+
+//Esercizio 5
+
+let costoDiSpedizione = 10
+let totalShoppingCart = 45
+
+if(totalShoppingCart > 50){
+    console.log(totalShoppingCart)
+} else {
+    console.log(totalShoppingCart + costoDiSpedizione)
+}
+
+//Esercizio 6
+
+let blackFriday = (totalShoppingCart * 80)/100
+
+if(blackFriday > 50){
+    console.log(blackFriday)
+} else {
+    console.log(blackFriday + costoDiSpedizione)
+}
+
+//Esercizio 8 
+ 
+if(typeof x === 'number'){
+    console.log("x è un numero")
+} else{
+    console.log("x non è un numero")
+}
+
+//Esercizio 9
+
+if(y % 2 === 0){
+    console.log('y è pari')
+} else {
+    console.log('y è dispari')
+}
