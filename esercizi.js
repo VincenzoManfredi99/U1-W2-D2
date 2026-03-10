@@ -67,3 +67,39 @@ if(y % 2 === 0){
 } else {
     console.log('y è dispari')
 }
+
+//Esercizio 10
+
+  let val = 7
+
+  if (val < 10) {
+      console.log("Meno di 10");
+    } else if (val > 5) {
+      console.log("Meno di 5");
+    } else {
+      console.log("Uguale a 10 o maggiore");
+    }
+
+    //Esercizio 11
+
+    const me = {
+
+    name: 'John',
+    lastName: 'Doe',
+    skills: ['javascript', 'html', 'css'],
+    city: "Toronto"
+}
+
+delete me.lastName
+
+me.skills.pop()
+
+console.log(me)
+
+let numeri= []
+
+numeri.push(1,2,3,4,5,6,7,8,9,10)
+
+numeri[9]= 100
+
+console.log(numeri)
